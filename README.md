@@ -7,9 +7,9 @@ This project was inspired by reading Ron Bishop's book:
 An EEPROM 2864 is used to store the program responsible for managing key presses and display.
 This program is designed for this micro board, and the comments within the code provide details about the memory map, address mapping, and various sections of the program.
 
-Here's a brief summary of the program structure and functionalities:
+# Program structure and functionalities
 
-Memory Map and Addressing:
+## Memory Map and Addressing
 
 The program starts by defining the memory map, specifying the addresses for SRAM, PIA (Peripheral Interface Adapter) for 7-segment display, PIA for the keyboard, ASCIA (Asynchronous Serial Communication Interface Adapter), and EEPROM.
 
