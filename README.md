@@ -13,16 +13,16 @@ Memory Map and Addressing:
 
 The program starts by defining the memory map, specifying the addresses for SRAM, PIA (Peripheral Interface Adapter) for 7-segment display, PIA for the keyboard, ASCIA (Asynchronous Serial Communication Interface Adapter), and EEPROM.
 
-#PIA Configuration
+# PIA Configuration
 
 Configuration of PIAs for seven-segment display and keyboard is defined with specific address assignments.
 PIA configuration includes setting control registers, direction of input/output pins, and other parameters.
 
-##Data Section
+## Data Section
 
 The program defines a data section with variables stored in RAM, including stack pointer, buffers for hex values and segment values of the display, and various other variables.
 
-###Initialization and Reset Vector
+### Initialization and Reset Vector
 
 The program initializes the stack pointer, configures the PIAs, and sets up interrupt vectors.
 The reset vector points to the RSTVECT section.
