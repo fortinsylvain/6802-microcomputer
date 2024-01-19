@@ -50,4 +50,5 @@ There are subroutines for generating delays (DELAYA) and beeping sounds (BEEP, A
 
 # My First EPROM Programmer for 2764
 In the early stages, I utilized a custom EPROM programmer specifically designed for the 2764, the original choice for this project. This programmer relied on dip switches and LEDs for manually inputting opcodes, with each code entered by pressing a button. Unfortunately, this manual process proved to be error-prone. There were instances where badly programmed locations were transformed into NOPs (No Operations), and program addresses had to be adjusted during the programming phase. The image below depicts the original programmer used for this purpose.
+![](FirstEpromProgrammer.jpg)
 
